@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device trees -->
-  <project name="moto-sm7325/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="lineage-19.1"/>
+  <project name="LineageOS/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="lineage-19.1"/>
   <project name="LineageOS/android_device_motorola_berlin" path="device/motorola/berlin" remote="github" revision="lineage-19.1"/>
-  <project name="moto-sm7325/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="test2/lineage-19.1"/>
+  <project name="LineageOS/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="lineage-19.1"/>
   <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-19.1"/>
 
   <!-- kernel -->
-  <project name="moto-sm7325/android_kernel_motorola_sm7325" path="kernel/motorola/sm7325" remote="github" revision="lineage-19.1"/>
+  <project name="LineageOS/android_kernel_motorola_sm7325" path="kernel/motorola/sm7325" remote="github" revision="lineage-19.1"/>
 
   <!-- vendor -->
-  <project name="moto-sm7325/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-19.1"/>
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-19.1"/>
 </manifest>
