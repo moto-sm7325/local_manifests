@@ -4,7 +4,7 @@
 Please note, I use ~/android/lineage-20 in this README but you can use whatever folder name you want.
 
 First I recommend checking the official LineageOS wiki instructions for building for xpeng here to see what are the dependencies and how to install them
-https://wiki.lineageos.org/devices/xpeng/build
+https://wiki.lineageos.org/devices/dubai/build
 
 Also please note that repopick.sh isn't always updated. Please check LineageOS Gerrit in case there is changes to repopick topics.
 
