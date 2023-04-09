@@ -12,7 +12,7 @@ Starting from zero:
 ---------
     mkdir -p ~/android/lineage-20
     cd ~/android/lineage-20
-    repo init -u git://github.com/LineageOS/android.git -b lineage-20
+    repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-20/motorola.xml > .repo/local_manifests/motorola.xml
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-20/gitlab.xml > .repo/local_manifests/gitlab.xml
