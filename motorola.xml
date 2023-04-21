@@ -3,7 +3,9 @@
   <!-- device trees -->
   <project name="LineageOS/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="lineage-20"/>
   <project name="LineageOS/android_device_motorola_berlin" path="device/motorola/berlin" remote="github" revision="lineage-20"/>
+  <project name="LineageOS/android_device_motorola_berlna" path="device/motorola/berlna" remote="github" revision="lineage-20"/>
   <project name="LineageOS/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="lineage-20"/>
+  <project name="LineageOS/android_device_motorola_xpeng" path="device/motorola/xpeng" remote="github" revision="lineage-20"/>
   <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-20"/>
 
   <!-- kernel -->
@@ -11,6 +13,8 @@
 
   <!-- vendor -->
   <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-20"/>
-  <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-20"/>
   <project name="the-muppets/proprietary_vendor_motorola_berlin" path="vendor/motorola/berlin" remote="gitlab" revision="lineage-20"/>
+  <project name="the-muppets/proprietary_vendor_motorola_berlna" path="vendor/motorola/berlna" remote="gitlab" revision="lineage-20"/>
+  <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-20"/>
+  <project name="the-muppets/proprietary_vendor_motorola_xpeng" path="vendor/motorola/xpeng" remote="gitlab" revision="lineage-20"/>
 </manifest>

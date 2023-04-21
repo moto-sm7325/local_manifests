@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
+</manifest>
