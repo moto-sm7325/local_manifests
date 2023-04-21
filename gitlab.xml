@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="gitlab"
-           fetch=".." />
+           fetch="https://gitlab.com/" />
 
   <remote  name="gitlab-private"
            fetch="ssh://git@gitlab.com" />
