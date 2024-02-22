@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-21"/>
+</manifest>
