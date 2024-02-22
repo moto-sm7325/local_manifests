@@ -1,8 +1,6 @@
 # Lineage buildscripts
 ========================
 
-Please note, I use ~/android/lineage-21 in this README but you can use whatever folder name you want.
-
 First I recommend checking the official LineageOS wiki instructions for building for dubai here to see what are the dependencies and how to install them
 https://wiki.lineageos.org/devices/dubai/build
 
@@ -10,8 +8,7 @@ Also please note that repopick.sh isn't always updated. Please check LineageOS G
 
 Starting from zero:
 ---------
-    mkdir -p ~/android/lineage-21
-    cd ~/android/lineage-21
+    # cd into your ROM's folder (IE, from scratch I would mkdir -p ~/android/lineage-21 && cd ~/android/lineage-21)
     repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/extras.xml > .repo/local_manifests/extras.xml
@@ -21,6 +18,7 @@ Starting from zero:
 
 If you've already synced Lineage-Sources:
 ----------
+    # cd into your ROM's folder
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/extras.xml > .repo/local_manifests/extras.xml
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/motorola-common.xml > .repo/local_manifests/motorola-common.xml
@@ -29,7 +27,7 @@ If you've already synced Lineage-Sources:
 
 Building
 ----------
-    cd ~/android/lineage-21
+    # cd into your ROM's folder
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_clean_build.sh > berlna_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_dirty_build.sh > berlna_dirty_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlin_clean_build.sh > berlin_clean_build.sh
