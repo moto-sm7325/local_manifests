@@ -18,9 +18,9 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-# make -j9 ARCH=arm clean
+breakfast lineage_xpeng-ap1a-userdebug
 make installclean
 
 # fire up the building process and also log stdout
 # and stderrout
-brunch lineage_xpeng-userdebug 2>&1 | tee xpeng_make.log
+brunch lineage_xpeng-ap1a-userdebug 2>&1 | tee xpeng_make.log

@@ -28,18 +28,18 @@ If you've already synced Lineage-Sources:
 Building
 ----------
     # cd into your ROM's folder
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_clean_build.sh > berlna_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_dirty_build.sh > berlna_dirty_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlin_clean_build.sh > berlin_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlin_dirty_build.sh > berlin_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_clean_build.sh > berlna_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/berlna_dirty_build.sh > berlna_dirty_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/dubai_clean_build.sh > dubai_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/dubai_dirty_build.sh > dubai_dirty_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/xpeng_clean_build.sh > xpeng_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-21/xpeng_dirty_build.sh > xpeng_dirty_build.sh
-    ./berlna_clean_build.sh // for berlin clean builds
-    ./berlna_dirty_build.sh // for berlin dirty builds
     ./berlin_clean_build.sh // for berlin clean builds
     ./berlin_dirty_build.sh // for berlin dirty builds
+    ./berlna_clean_build.sh // for berlna clean builds
+    ./berlna_dirty_build.sh // for berlna dirty builds
     ./dubai_clean_build.sh // for dubai clean builds
     ./dubai_dirty_build.sh // for dubai dirty builds
     ./xpeng_clean_build.sh // for xpeng clean builds
