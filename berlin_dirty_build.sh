@@ -18,9 +18,9 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-breakfast lineage_berlin-ap1a-userdebug
+breakfast lineage_berlin-ap2a-userdebug
 make installclean
 
 # fire up the building process and also log stdout
 # and stderrout
-brunch lineage_berlin-ap1a-userdebug 2>&1 | tee berlin_make.log
+brunch lineage_berlin-ap2a-userdebug 2>&1 | tee berlin_make.log
