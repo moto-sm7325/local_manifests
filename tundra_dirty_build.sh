@@ -23,4 +23,4 @@ make installclean
 
 # fire up the building process and also log stdout
 # and stderrout
-brunch lineage_xpeng-ap4a-userdebug 2>&1 | tee xpeng_make.log
+brunch lineage_tundra-ap4a-userdebug 2>&1 | tee tundra_make.log
