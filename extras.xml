@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-22.1"/>
-  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-22.2"/>
 </manifest>

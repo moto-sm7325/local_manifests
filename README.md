@@ -8,36 +8,36 @@ Also please note that repopick.sh isn't always updated. Please check LineageOS G
 
 Starting from zero:
 ---------
-    # cd into your ROM's folder (IE, from scratch I would mkdir -p ~/android/lineage-22.1 && cd ~/android/lineage-22.1)
-    repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
+    # cd into your ROM's folder (IE, from scratch I would mkdir -p ~/android/lineage-22.2 && cd ~/android/lineage-22.2)
+    repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/extras.xml > .repo/local_manifests/extras.xml
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/motorola-common.xml > .repo/local_manifests/motorola-common.xml
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/motorola-sm7325.xml > .repo/local_manifests/motorola-sm7325.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/extras.xml > .repo/local_manifests/extras.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/motorola-common.xml > .repo/local_manifests/motorola-common.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/motorola-sm7325.xml > .repo/local_manifests/motorola-sm7325.xml
     repo sync
 
 If you've already synced Lineage-Sources:
 ----------
     # cd into your ROM's folder
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/extras.xml > .repo/local_manifests/extras.xml
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/motorola-common.xml > .repo/local_manifests/motorola-common.xml
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/motorola-sm7325.xml > .repo/local_manifests/motorola-sm7325.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/extras.xml > .repo/local_manifests/extras.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/motorola-common.xml > .repo/local_manifests/motorola-common.xml
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/motorola-sm7325.xml > .repo/local_manifests/motorola-sm7325.xml
     repo sync
 
 Building
 ----------
     # cd into your ROM's folder
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/berlin_clean_build.sh > berlin_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/berlin_dirty_build.sh > berlin_dirty_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/berlna_clean_build.sh > berlna_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/berlna_dirty_build.sh > berlna_dirty_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/dubai_clean_build.sh > dubai_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/dubai_dirty_build.sh > dubai_dirty_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/tundra_clean_build.sh > tundra_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/tundra_dirty_build.sh > tundra_dirty_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/xpeng_clean_build.sh > xpeng_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.1/xpeng_dirty_build.sh > xpeng_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/berlin_clean_build.sh > berlin_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/berlin_dirty_build.sh > berlin_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/berlna_clean_build.sh > berlna_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/berlna_dirty_build.sh > berlna_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/dubai_clean_build.sh > dubai_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/dubai_dirty_build.sh > dubai_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/tundra_clean_build.sh > tundra_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/tundra_dirty_build.sh > tundra_dirty_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/xpeng_clean_build.sh > xpeng_clean_build.sh
+    curl https://raw.githubusercontent.com/moto-sm7325/local_manifests/lineage-22.2/xpeng_dirty_build.sh > xpeng_dirty_build.sh
     ./berlin_clean_build.sh // for berlin clean builds
     ./berlin_dirty_build.sh // for berlin dirty builds
     ./berlna_clean_build.sh // for berlna clean builds
