@@ -18,9 +18,9 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-breakfast lineage_tundra-bp1a-userdebug
+breakfast lineage_tundra-bp2a-userdebug
 make -j9 ARCH=arm clean
 
 # fire up the building process and also log stdout
 # and stderrout
-brunch lineage_tundra-bp1a-userdebug 2>&1 | tee tundra_make.log
+brunch lineage_tundra-bp2a-userdebug 2>&1 | tee tundra_make.log
